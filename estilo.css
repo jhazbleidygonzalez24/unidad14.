@@ -1,0 +1,68 @@
+.contenido {
+    width: 500px;
+    background: rgb(240, 120, 194);
+    font: 30px arial;
+    margin: auto;
+    margin-top: 170px;
+    border: 3px soli rgb(145, 16, 177);
+    padding: 20px;
+    box-shadow: 20px 20px 20px;
+
+}
+body{
+   display: flex;
+}
+
+.listadopacientes-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 500px;
+    box-shadow: 0 0 20px rgb(206, 72, 155);
+}
+
+.listadopacientes-table thead tr {
+
+    background-color: aliceblue;
+    color: black;
+    text-align: middle;
+
+}
+    
+.listado-doctores-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 600px;
+    box-shadow: 0 0 20px rgb(108, 192, 212);
+}
+
+.listadopacientes-table thead tr {
+
+    background-color: aliceblue;
+    color: black;
+    text-align: middle;
+
+}
+
+.listado-citas-medicas-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 600px;
+    box-shadow: 0 0 20px rgb(75, 219, 171);
+}
+
+.listadopacientes-table thead tr {
+
+    background-color: aliceblue;
+    color: black;
+    text-align: middle;
+
+}
+    
+
+

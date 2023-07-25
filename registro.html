@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="estilo.css">
+	<title>hospital</title>
+	
+	
+<head>
+	
+<body>
+	
+<div id="contenido" class="contenido">
+	<h1> doctores</h1>
+		<form action="" method="post">
+       <div>
+		<label for="nombre">nombre</label>
+		<input type="text" id="nombre" >
+	   </div>
+	   <div>
+		<label for="Apellido">Apellido</label>
+		<input type="Apellido" id="Apellido">
+	   </div>
+	   <div>
+		<label for="Numero de cedula">Numero de cedula</label>
+		<input type="Numero de cedula" id="Numero de cedula" >
+	   </div>
+	   <div>
+		<label for="consultorio">consultorio</label>
+		<input type="consultorio" id="consultorio">
+	   </div>
+	   <div>
+		<label for="correo de contacto">correo de contacto</label>
+		<input type="correo de contacto" id="correo de contacto">
+	   </div>
+		<form>
+			lista desplegable de la especialidad
+		<select id= "listadesplegabledelaespecialidad">
+			<option>Medicina general</option>
+			<option>Cardiologia</option>
+			<option>Medicina interna</option>
+			<option>Dermatologia</option>
+			<option>Rehabilitacion fisica</option>
+			<option>Psicologia</option>
+			<option>Odontologia</option>
+			<option>Radiologia</option>
+
+		</select>
+        <div id="error"></div>
+		
+	</form>
+    <a type="submit" href="listado-doctores.html" onclick="return enviandoformulario();"  value="iniciarsesion">iniciar sesion</a>
+
+    </form>
+		
+	
+
+		<title> pacientes </title>
+      
+	</div>
+	<div id="contenido" class="contenido">
+	<div>
+		<h3> pacientes</h3>
+        <form action="" method="post">
+		<label for="nombre">nombre</label>
+		<input type="text" id="nombre2" >
+	   </div>
+	   <div>
+		<label for="Apellido">Apellido</label>
+		<input type="Apellido" id="Apellido2">
+	   </div>
+       <div>
+		<label for="Numero de cedula2">Numero de cedula</label>
+		<input type="Numero de cedula2" id="Numero de cedula2" >
+	   </div>
+	   <div>
+		<label for="Edad">Edad</label>
+		<input type="Edad" id="Edad">
+	   </div>
+	   <div>
+		<label for="Telefono">Telefono</label>
+		<input type="Telefono" id="Telefono">
+	   </div>
+       <div id="error2"></div>
+    </form>
+   <button onclick="return enviandoformulario();"></button>
+     
+       <a type="submit" href="listadopacientes.html"   value="iniciarsesion">iniciar sesion</a>
+
+		
+	</form>
+
+    <title> citas medicas </title>
+	</div>
+	<div id="contenido" class="contenido">
+	<div>
+		<h3> citas medias</h3>
+        <form action="" method="post">
+	   <div>
+		<label for="Número documento paciente.">Número documento paciente. </label>
+		<input type="Número documento paciente." id="Número documento paciente." >
+	   </div>
+	
+	  <form>
+		lista desplegable de la especialidad
+		<select id= "listadesplegabledelaespecialidad2">
+			<option>Medicina general</option>
+			<option>Cardiologia</option>
+			<option>Medicina interna</option>
+			<option>Dermatologia</option>
+			<option>Rehabilitacion fisica</option>
+			<option>Psicologia</option>
+			<option>Odontologia</option>
+			<option>Radiologia</option>
+
+		</select>
+        <div id="error3"></div>
+	</form>
+    <a type="submit" href="listado-citas-medicas.html" onclick="return enviandoformulario();"  value="iniciarsesion">iniciar sesion</a>
+
+
+		
+	</form>
+	
+	<script src="formularios.js"></script>
+	
+	
+</body>
+</html>
